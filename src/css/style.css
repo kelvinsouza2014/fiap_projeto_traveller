@@ -1,5 +1,32 @@
 /* PROJETO TRAVELLER */
 
+    /* FONTES */
+        /* font-family: 'Arvo', serif; */
+        /* font-family: 'Roboto', sans-serif; */
+
 * {
     box-sizing: border-box;
+}
+
+.menu_1 {
+    font-family: 'Arvo', serif;
+    color: #202c61c9;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.logo_numero_1 {
+    color: #375d9e;
+}
+
+.logo_numero_2 {
+    color: #0e74a7;
+}
+
+.logo_numero_3 {
+    color: #1886bd;
 }
