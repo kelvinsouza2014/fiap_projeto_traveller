@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
+    /* PEIMEIRO MENU DE NAVEGAÇÃO */
+
 .menu_1 h1 {
     font-family: 'Arvo', serif;
     color: #202c61c9;
@@ -26,7 +28,7 @@
 }
 
 .logo_numero_1 {
-    color: #375d9e;
+    color: #5272a8;
 }
 
 .logo_numero_2 {
@@ -37,10 +39,23 @@
     color: #1886bd;
 }
 
+    /* PRIMEIRO SUBMENU */
+
 .submenu_1 {
     font-family: 'Roboto', sans-serif;
     display: flex;
-    color: #0e74a7;
+}
+
+.icones {
+    color: #5272a8;
+}
+
+.icones i {
+    font-size:25px;
+}
+
+.icones_menu_1 i {
+    font-size: 20px;
 }
 
 .submenu_1 ul {
@@ -58,4 +73,56 @@
     text-decoration: none;
     margin-left: 5px;
     color: #0e74a7;
+}
+
+    /* SEGUNDO MENU DE NAVEGAÇÃO */
+
+.menu_2 {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #ccc;
+}
+
+.menu_2 ul {
+    text-align: center;
+    border: solid 2px #ccc;
+    padding: 2rem;
+}
+
+.menu_2 li {
+    display: block;
+    margin: 10px 0;
+}
+
+.menu_2 a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #202c61c9;
+}
+
+/* .container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+*/
+
+.reserva {
+    background-image: url(../imagens/beach-6517214_1920.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+}
+
+.caixa_reserva {
+    /* width: 900px; */
+    background-color: #fff;
+    opacity: 0.7;
+    margin: auto;
+    padding: ;
+}
+
+.caixa_reserva {
+    opacity: 1;    
 }
