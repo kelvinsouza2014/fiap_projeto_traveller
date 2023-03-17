@@ -8,9 +8,15 @@
     box-sizing: border-box;
 }
 
-.menu_1 {
+.menu_1 h1 {
     font-family: 'Arvo', serif;
     color: #202c61c9;
+}
+.menu_1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    padding: 0.8rem 6rem;
 }
 
 .logo {
@@ -29,4 +35,27 @@
 
 .logo_numero_3 {
     color: #1886bd;
+}
+
+.submenu_1 {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    color: #0e74a7;
+}
+
+.submenu_1 ul {
+    display: flex;
+    margin-left: 50px;
+}
+
+.submenu_1 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submenu_1 a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #0e74a7;
 }
