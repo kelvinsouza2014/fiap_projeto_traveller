@@ -17,7 +17,7 @@
 .menu_1 {
     display: flex;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: #b7babe;
     padding: 0.8rem 6rem;
 }
 
@@ -109,18 +109,123 @@
 }
 
 .caixa_reserva {
-    width: 1300px;
+    font-family: 'Roboto', sans-serif;
+
+    width: 1321px;
     height: 300px;
     background-color: #fff;
-    opacity: 0.7;
+    opacity: 0.8;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
+    padding-right: 50px;
+}
+
+.caixa_reserva h2 {
+    position: relative;
+    top: -35px;
+    left: 84px;
+    font-weight: 900;
+    font-size: 1.5rem;
 }
 
 .formulario {
     opacity: 1;
 }
 
+.formulario label {
+    font-size: 15px;
+}
 
+.formulario input {
+    height: 40px;
+    border-radius: 15px;
+}
+
+.formulario button {
+    height: 50px;
+    border-radius: 10px;
+    background-color: #0e74a7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.formulario button:hover {
+    scale: 1.1;
+    background-color: #123c52;
+}
+
+.vitrine {
+    margin: 0 7rem;
+}
+
+#local_de_partida {
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+.vitrine h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 5rem;
+
+}
+
+.vitrine li {
+    display: inline-block;
+    position: relative;
+    background-image: url(../imagens/rio_de_janeiro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+}
+
+.vitrine h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.vitrine p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.vitrine .preco {
+    font-size: 1.5rem;
+}
+
+.vitrine a {
+    border: solid 2px #123c52;
+    border-radius: 5px;
+    padding: 0.5rem 5rem;
+    background-color: #5272a8;
+    color: #fff;
+}
+
+.vitrine h3, p, a {
+    margin: 1.5rem 0;
+}
+
+footer {
+    background-color: #5272a8;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin: 2rem 0;
+}
